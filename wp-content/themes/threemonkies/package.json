@@ -1,0 +1,16 @@
+{
+  "name": "3monkies",
+  "version": "0.0.1",
+
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-stylus": "^2.7.0",
+    "nib": "^1.1.2"
+  }
+
+}

@@ -1,0 +1,155 @@
+.woocommerce-breadcrumb
+.product_meta
+    display none
+.product_title
+    color: white
+    font-weight: 300
+    text-transform: capitalize
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images
+	float none
+	width 100%
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary
+	float none
+	width 100%
+
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper
+		background-repeat repeat,no-repeat,no-repeat
+		background-size auto auto,cover,cover
+		background-position 50% 50%
+		height 100vh//400px
+
+.product-bg
+	position fixed
+	left 0
+	right 0
+	top 0
+	bottom 0
+	width 100%
+	height 100%
+	z-index -1
+@media screen and (min-width:1000px)
+	.product-bg
+		position fixed
+
+.woocommerce #content div.product .woocommerce-tabs, .woocommerce div.product .woocommerce-tabs, .woocommerce-page #content div.product .woocommerce-tabs, .woocommerce-page div.product .woocommerce-tabs
+	background-color rgba(#fff, .9)
+
+.woocommerce div.product .woocommerce-tabs .panel
+    padding 0rem 1rem 1rem
+    font-weight: 300
+    ul 
+        margin-left 5px
+    h3,h2
+        margin-bottom: .8rem
+        font-size: 2rem
+        color lima
+    h4
+        font-size: 1.5rem
+        margin-bottom: .8rem
+        color verde
+    b
+    strong
+        color: verde
+    p
+        margin-bottom: .25rem
+
+.woocommerce div.product .woocommerce-tabs ul.tabs
+    text-align: right
+    margin-bottom: .5rem;
+    
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li
+    background naranja
+    color white
+    padding: 0 .5em
+    margin: 0 0
+    border-radius 0
+    //font-size: 13px
+    &:before
+    &:after
+        display: none
+    a 
+        color white
+        font-weight: 300
+        outline: none
+        text-align: center
+        padding: .5rem
+        .span-tab-title
+            display: none
+            
+        &:hover
+            color: rgba(0,0,0,.45)//verde
+@media screen and (min-width: 560px)
+    .woocommerce div.product .woocommerce-tabs ul.tabs li
+        margin: 0 .25rem
+        font-size: 1rem
+        a
+            .span-tab-title
+                display: inline-block
+            .svg-inline--fa
+                margin-right: .5rem
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active
+    background naranja
+    border-bottom-color rgba(0,0,0,.35)
+    a 
+        &:hover
+            color: white
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.details_tab{
+	background-color lima 
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.book_tab, .woocommerce div.product .woocommerce-tabs ul.tabs li.book_shuttle_tab{
+	background-color rojo 
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.rates_tab{
+	background-color verde 
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.video_tab{
+	background-color celeste 
+}
+
+.details_tab
+    a
+        &:before
+            display: none;
+            font-family: "Font Awesome 5 Solid";
+            content: "\f05a";
+
+.rates_tab
+    a
+        &:before
+            display: none;
+            font-family: "Font Awesome 5 Solid";
+            content: "\f3d1";
+
+.book_tab
+.book_shuttle_tab  
+    a
+        &:before
+            display: none;
+            font-family: "Font Awesome 5 Solid";
+            content: "\f07a";
+
+
+
+.description_tab 
+    a
+        &:before
+            display: none;
+            font-family: "Font Awesome 5 Solid";
+            content: "\f015";
+
+.video_tab 
+    a
+        &:before
+            display: none;
+            font-family: "Font Awesome 5 Solid";
+            content: "\f03d";
+
+#tab-description
+    p
+        margin-bottom: 1rem
+
