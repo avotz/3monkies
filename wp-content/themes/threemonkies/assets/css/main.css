@@ -1349,6 +1349,9 @@ iframe {
 #tab-description p {
   margin-bottom: 1rem;
 }
+#tab-extra .alignleft {
+  width: 190px;
+}
 table {
   background-color: transparent;
 }
