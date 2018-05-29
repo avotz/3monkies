@@ -18,6 +18,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
 	<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
+	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon_32x32.ico">
 	<?php wp_head(); ?>
 
 	<script>
