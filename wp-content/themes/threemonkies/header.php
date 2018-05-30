@@ -67,10 +67,10 @@
 			
 		</a>
 	</div>
-	<button id="btn-info" class="btn-info">
+	<button id="btn-info" class="btn-info" role="button" aria-label="info">
 	   <i class="fas fa-info"></i>
 	</button>
-	<button id="btn-menu" class="btn-menu">
+	<button id="btn-menu" class="btn-menu" role="button" aria-label="info">
 	   <i class="fas fa-bars"></i>
 	</button>
 </header>
