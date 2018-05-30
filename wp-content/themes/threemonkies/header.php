@@ -19,6 +19,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
 	<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
 	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon_32x32.ico">
+	<meta name="theme-color" content="#ffffff"/>
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="apple-mobile-web-app-title" content="3monkiescr">
