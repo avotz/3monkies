@@ -25,9 +25,9 @@
 					));
 					?>
 					<div class="footer-social">
-						<a href="https://www.facebook.com/3monkiestourscostarica" class="fb" target="_blank"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.facebook.com/3monkiestourscostarica" class="fb" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
 						<a href="https://plus.google.com/b/112586289525728866642/+3monkiescr/about?gmbpt=true&hl=en" class="gp" target="_blank"><i class="fab fa-google-plus"></i></a>
-						<a href="https://www.youtube.com/channel/UChJaQ_6UN6FO6VTOt7aymZQ" class="yt"><i class="fab fa-youtube" target="_blank"></i></a>
+						<a href="https://www.youtube.com/channel/UChJaQ_6UN6FO6VTOt7aymZQ" class="yt"><i class="fab fa-youtube" target="_blank" rel="noreferrer"></i></a>
 					</div>
 					<div class="footer-partners">
 						<a href="#" class="ict">ICT</a>
