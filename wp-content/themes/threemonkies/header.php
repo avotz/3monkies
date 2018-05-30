@@ -21,7 +21,7 @@
 	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon_32x32.ico">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-title" content="Weather PWA">
+	<meta name="apple-mobile-web-app-title" content="3monkiescr">
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/img/icons/icon-152x152.png">
 	<?php wp_head(); ?>
 
