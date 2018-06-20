@@ -9,9 +9,11 @@
 
 get_header();
 ?>
-
+<div class="banner">
+	</div>
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<div class="blog-container flex-container-sb">
+			<div class="blog-info">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -45,9 +47,13 @@ get_header();
 		endif;
 		?>
 
-		</main><!-- #main -->
+			</div>
+			<div class="blog-sidebar">
+				<?php get_sidebar(); ?>
+			</div>
+		</div>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
