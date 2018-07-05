@@ -1824,6 +1824,12 @@ h3 {
 .info-is-open .header-top {
   display: block;
 }
+.single-product .logo {
+  max-width: 100%;
+}
+.single-product .menu-right {
+  display: block;
+}
 .header {
   position: relative;
   z-index: 3;
