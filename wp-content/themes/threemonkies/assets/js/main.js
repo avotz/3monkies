@@ -60,7 +60,7 @@ if ('serviceWorker' in navigator) {
 
     $('.woocommerce-tabs .book_shuttle_tab a').attr('href', '#transportation-popup')
     $('.woocommerce-tabs .book_shuttle_tab a').attr('data-title', $('h1.product_title').text())
-    $('.woocommerce-tabs .book_shuttle_tab a', '.book-wedding').magnificPopup({
+    $('.woocommerce-tabs .book_shuttle_tab a, .book-wedding').magnificPopup({
         type: 'inline',
         midClick: true,
         removalDelay: 500, //delay removal by X to allow out-animation
@@ -80,7 +80,7 @@ if ('serviceWorker' in navigator) {
 
 
     });
-    $('.woocommerce-tabs .book_shuttle_tab a','.book-wedding').on('click', function (e) {
+    $('.woocommerce-tabs .book_shuttle_tab a, .book-wedding').on('click', function (e) {
 
         $('#transportation-popup').find('input[name="destination"]').val($(this).attr('data-title'));
 
