@@ -2070,7 +2070,7 @@ h3 {
   }
 }
 .banner {
-  background-image: url("./img/pattern.png"), url("./img/bg.jpg");
+  background-image: url("./img/pattern.png"), url("./img/bg2.jpg");
   -webkit-background-size: auto, cover;
   -moz-background-size: auto, cover;
   background-size: auto, cover;
