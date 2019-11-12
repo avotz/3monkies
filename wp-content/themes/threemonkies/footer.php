@@ -52,7 +52,8 @@
     </div>
 	<div id="transportation-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
          <h2>Reserve Transportation</h2>
-         <?php echo do_shortcode('[contact-form-7 id="33" title="Book Transportation"]'); ?>
+		 <?php echo do_shortcode('[contact-form-7 id="33" title="Book Transportation"]'); ?>
+		 <div class="membrete"></div>
               
         
     </div>

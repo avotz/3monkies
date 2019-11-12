@@ -2536,6 +2536,14 @@ article.page .entry-content ul {
 .only-round-trip {
   display: none;
 }
+.request-popup .membrete {
+  background-image: url("./img/3monkies-membrete.png");
+  background-position: bottom left;
+  width: 100%;
+  heigth: 100px;
+  position: absolute;
+  z-index: -1;
+}
 @media screen and (min-width: 640px) {
   .footer {
     position: fixed;
