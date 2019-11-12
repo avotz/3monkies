@@ -206,6 +206,15 @@ if ('serviceWorker' in navigator) {
 
     });
 
+    var onlyRoundTrip = $('#transportation-popup').find('.only-round-trip');
+    $('#transportation-popup').find('select[name="type"]').on('change', function (e){
+        console.log($(this).val());
+        if($(this).val() == 'Round Trip'){
+            onlyRoundTrip.show();
+        }else{
+            onlyRoundTrip.hide();
+        }
+    });
 
 
     

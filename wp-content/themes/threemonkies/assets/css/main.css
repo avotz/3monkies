@@ -2533,6 +2533,9 @@ article.page .entry-content ul {
 .footer .copyright {
   padding-right: 1rem;
 }
+.only-round-trip {
+  display: none;
+}
 @media screen and (min-width: 640px) {
   .footer {
     position: fixed;
