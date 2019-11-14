@@ -1,4 +1,4 @@
-var version = 'v1.1.16:';
+var version = 'v1.1.17:';
 
 var theme_path = 'wp-content/themes/threemonkies/';
 
