@@ -49,15 +49,7 @@
 	<h2>Reserve Tours <img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours" style="position: absolute;right: 35px;top: 5px;"></h2>
 	<?php echo do_shortcode('[contact-form-7 id="32" title="Book Tour"]'); ?>
 	<div class="membrete"></div>
-	<div id="smart-button-container">
-		<div style="text-align: center"><label for="description">Description </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-		<p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-		<div style="text-align: center"><label for="amount">Amount </label><input name="amountInput" type="number" id="amount" value=""><span> USD</span></div>
-		<p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
-		<div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value=""></div>
-		<p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
-		<div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
-	</div>
+	
 
 </div>
 <div id="transportation-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
@@ -75,6 +67,15 @@
 </div>
 
 
+	<div id="smart-button-container">
+		<div style="text-align: center"><label for="description">Description </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+		<p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+		<div style="text-align: center"><label for="amount">Amount </label><input name="amountInput" type="number" id="amount" value=""><span> USD</span></div>
+		<p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+		<div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value=""></div>
+		<p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+		<div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+	</div>
 
 	<script src="https://www.paypal.com/sdk/js?client-id=AeHyejoa9M1udO7Qk1AznenkuM0fXKSD9iPWGTjyZJP_PFxj24PBKZZ9gDXg_2smtsaZLhPLkBAwZ5lb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
 	<script>
