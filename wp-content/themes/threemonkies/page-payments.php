@@ -27,14 +27,12 @@ get_header();
 		while (have_posts()) :
 			the_post();
 
-		get_template_part('template-parts/content', 'page');
+		get_template_part('template-parts/content', 'page-paypal');
 
 		
 		endwhile; // End of the loop.
 		?>
-		<div>
-			<?php dynamic_sidebar( 'paypal-widget' ); ?>
-		</div>
+		
 		
 		
 	</div><!-- #main -->
