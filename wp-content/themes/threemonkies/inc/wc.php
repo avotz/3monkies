@@ -238,6 +238,8 @@ function woo_video_tab_content()
 
     echo rwmb_meta('rw_video');
 
+   echo dynamic_sidebar( 'paypal-widget' ); 
+
 }
 
 
