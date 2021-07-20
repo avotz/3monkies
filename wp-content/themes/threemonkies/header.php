@@ -55,7 +55,7 @@
 				reservations@3monkiescr.com
 			</span>
 			<span>
-				(506)2668-0074 - (506)2668-0076 <br>
+				(506)2201-5024 - (WhatsApp)8719-9020 <br>
 				 US Number: 12134389614
 			</span>
 		</a>
