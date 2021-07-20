@@ -79,7 +79,7 @@
 	<script src="https://www.paypal.com/sdk/js?client-id=AeHyejoa9M1udO7Qk1AznenkuM0fXKSD9iPWGTjyZJP_PFxj24PBKZZ9gDXg_2smtsaZLhPLkBAwZ5lb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
 	<script>
 		function initPayPalButton() {
-			var description = document.querySelector('.wpcf7-form-control-wrap tours select[name="tours"]');
+			var description = 'tour';//document.querySelector('.wpcf7-form-control-wrap tours select[name="tours"]');
 			var amount = document.querySelector('#smart-button-container #amount');
 			var descriptionError = document.querySelector('#smart-button-container #descriptionError');
 			var priceError = document.querySelector('#smart-button-container #priceLabelError');
