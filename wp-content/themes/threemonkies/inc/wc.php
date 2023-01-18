@@ -264,6 +264,14 @@ function woo_book_tab($tabs)
             'callback' => 'woo_book_tab_content'
         );
     }
+    elseif (is_product() && has_term('Wedding', 'product_cat')) {
+    
+        $tabs['book_wedding'] = array(
+            'title' => $nameTab,
+            'priority' => 70,
+            'callback' => 'woo_book_tab_content'
+        );
+    }
    
    
 
