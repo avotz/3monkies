@@ -1311,7 +1311,8 @@ iframe {
   background-color: #b9da00;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.book_tab,
-.woocommerce div.product .woocommerce-tabs ul.tabs li.book_shuttle_tab {
+.woocommerce div.product .woocommerce-tabs ul.tabs li.book_shuttle_tab,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.book_wedding_tab {
   background-color: #ee4035;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.rates_tab {
@@ -1331,7 +1332,8 @@ iframe {
   content: "\f3d1";
 }
 .book_tab a:before,
-.book_shuttle_tab a:before {
+.book_shuttle_tab a:before,
+.book_wedding_tab a:before {
   display: none;
   font-family: "Font Awesome 5 Solid";
   content: "\f07a";
@@ -1842,7 +1844,7 @@ h3 {
   left: 0;
   top: 3rem;
 }
-.header-top a {
+.header-top > a, .header-top div {
   background: rgba(0,0,0,0.6);
   color: #fff;
   cursor: pointer;

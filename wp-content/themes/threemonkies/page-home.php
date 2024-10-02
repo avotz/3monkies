@@ -33,6 +33,10 @@ get_header();
                     
                     <h1 class="animated fadeIn">Experience Costa Rica with</h1>
                     <p>Local Specialists</p>
+
+                    <div>
+                      <?php dynamic_sidebar( 'home-search' ); ?>
+                    </div>
             </div>
            </div> 
 
