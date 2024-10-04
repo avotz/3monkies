@@ -75,17 +75,24 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
+			text-align: left;
 		}
 
-
+		.main form input[type="text"] {
+			width: 100%;
+		}
 		.main form textarea {
-			margin: 10px;
 			width: 100%;
 			height: 100px;
 		}
-
+		.main form > div {
+			text-align: left;
+			width: 100%;
+		}
 		.main form label {
-			margin: 10px;
+			margin-bottom: 10px;
+			text-align: left;
+			font-weight: bold;
 		}
 
 
