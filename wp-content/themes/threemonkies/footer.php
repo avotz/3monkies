@@ -26,9 +26,9 @@
 			));
 			?>
 			<div class="footer-social">
-				<a href="https://www.facebook.com/3monkiestourscostarica" class="" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
-				<a href="https://www.instagram.com/3monkiestourscr" class="" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.tripadvisor.com/UserReviewEdit-g309240-d3359599-3_Monkies_Day_Tours-Liberia_Province_of_Guanacaste.html" class="ta" target="_blank" rel="noreferrer"><img height="25" width="25" src="<?php echo get_template_directory_uri(); ?>/img/tripadvisor-logo-6-1.png" style="filter:brightness(5) invert(0) saturate(0);" /></a>
+				<a href="https://www.facebook.com/profile.php?id=61561087587665" class="" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/threemonkiescr" class="" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.tripadvisor.com/Attraction_Review-g309240-d3359599-Reviews-3_Monkies_Day_Tours-Liberia_Province_of_Guanacaste.html" class="ta" target="_blank" rel="noreferrer"><img height="25" width="25" src="<?php echo get_template_directory_uri(); ?>/img/tripadvisor-logo-6-1.png" style="filter:brightness(5) invert(0) saturate(0);" /></a>
 				<a href="https://www.youtube.com/channel/UChJaQ_6UN6FO6VTOt7aymZQ" class=""><i class="fab fa-youtube" target="_blank"></i></a>
 			</div>
 			<div class="footer-partners">
