@@ -49,27 +49,27 @@
 <div id="tour-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
 	<h2>Reserve Tours <img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours" style="position: absolute;right: 35px;top: 5px;"></h2>
 	<?php echo do_shortcode('[contact-form-7 id="32" title="Book Tour"]'); ?>
-	<div class="membrete"></div>
+	<!-- <div class="membrete"></div> -->
 	
 </div>
 <div id="transportation-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
 	<h2>Reserve Transportation <img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours" style="position: absolute;right: 35px;top: 5px;"></h2>
 	<?php echo do_shortcode('[contact-form-7 id="33" title="Book Transportation"]'); ?>
-	<div class="membrete"></div>
+	<!-- <div class="membrete"></div> -->
 
 
 </div>
 <div id="wedding-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
-	<h2>Reserve Wedding Transportation <img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours" style="position: absolute;right: 35px;top: 5px;"></h2>
+	<h2><span class="wedding-name">Reserve Wedding</span> Transportation <img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours" style="position: absolute;right: 35px;top: 5px;"></h2>
 	<?php echo do_shortcode('[contact-form-7 id="3752" title="Book Wedding"]'); ?>
-	<div class="membrete"></div>
+	<!-- <div class="membrete"></div> -->
 
 
 </div>
 <div id="contact-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
 	<h2>Contact Us <img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours" style="position: absolute;right: 35px;top: 5px;"></h2>
 	<?php echo do_shortcode('[contact-form-7 id="31" title="Contact form"]'); ?>
-	<div class="membrete"></div>
+	<!-- <div class="membrete"></div> -->
 
 </div>
 

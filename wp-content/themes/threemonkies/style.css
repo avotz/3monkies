@@ -2535,7 +2535,7 @@ article.page .entry-content ul {
 .footer .copyright {
   padding-right: 1rem;
 }
-.only-round-trip {
+.only-round-trip, .only-one-way-trip {
   display: none;
 }
 .request-popup h2 img {
