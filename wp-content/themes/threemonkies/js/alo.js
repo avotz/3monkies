@@ -26,6 +26,25 @@ $('.woocommerce-tabs .book_wedding_tab a, .book-wedding').on('click', function (
 
 });
 
+var transportationOnlyOneWayTrip = $('#transportation-popup').find('.only-one-way-trip');
+    $('#transportation-popup').find('select[name="type"]').on('change', function (e){
+        console.log($(this).val());
+        if($(this).val() == 'One Way'){
+            transportationOnlyOneWayTrip.show();
+        }else{
+            transportationOnlyOneWayTrip.hide();
+        }
+    });
+
+    var weddingOnlyOneWayTrip = $('#wedding-popup').find('.only-one-way-trip');
+    $('#wedding-popup').find('select[name="type"]').on('change', function (e){
+        console.log($(this).val());
+        if($(this).val() == 'One Way'){
+            weddingOnlyOneWayTrip.show();
+        }else{
+            weddingOnlyOneWayTrip.hide();
+        }
+    });
 var onlyRoundTrip = $('#wedding-popup').find('.only-round-trip');
     $('#wedding-popup').find('select[name="type"]').on('change', function (e){
         console.log($(this).val());
