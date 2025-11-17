@@ -58,6 +58,18 @@ var transportationOnlyRoundTrip = $('#transportation-popup').find('.only-round-t
             weddingOnlyRoundTrip.hide();
         }
     });
+
+    $('#btn-info').on('click', function (e) {
+        console.log('sssss');
+        
+          if ($('.contact-info').css("display") == "none") {
+              $('.contact-info').fadeIn(500);
+          } else
+              $('.contact-info').hide();
+  
+  
+      });
+
 // var onlyRoundTrip = $('#wedding-popup').find('.only-round-trip');
 //     $('#wedding-popup').find('select[name="type"]').on('change', function (e){
 //         console.log($(this).val());

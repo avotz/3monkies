@@ -31,7 +31,7 @@ get_header();
           <div class="home-container">
             <div class="home-info">
                     
-                    <h1 class="animated fadeIn">Experience Costa Rica with</h1>
+                    <span class="animated fadeIn">Experience Costa Rica with</span>
                     <p>Local Specialists</p>
 
                     <div>
