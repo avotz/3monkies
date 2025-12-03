@@ -11,10 +11,12 @@
  */
 
 ?>
+<?php if (is_front_page()) { ?>
 <a href="https://www.tripadvisor.com/Attraction_Review-g309240-d3359599-Reviews-3_Monkies_Day_Tours-Liberia_Province_of_Guanacaste.html" class="tripadvisor-reviews" target="_blank" rel="noreferrer">
 	<img src="<?php echo get_template_directory_uri(); ?>/img/tripadvisor-logo.png" alt="TripAdvisor" />
 	<span>Reviews</span>
 </a>
+<?php } ?>
 <div class="footer">
 	<div class="footer-container flex-container-sb">
 		<div class="footer-left flex-container-sb" style="align-items: center;">
