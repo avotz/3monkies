@@ -2333,7 +2333,7 @@ h3 {
 
 .right-buttons div span.contact-info {
   display: none;
-  position: absolute;
+  position: fixed;
   right: 0;
   text-align: left;
   top: 5rem;
@@ -2452,7 +2452,7 @@ h3 {
     left: 0;
     right: 1rem;
     bottom: 0;
-    top: 0;
+    top: 50px;
     z-index: 3;
     width: 210px;
     background: transparent;
@@ -2562,7 +2562,7 @@ h3 {
   .section-right {
     left: auto;
     bottom: auto;
-    top: 0;
+    top: 50px;
     display: block;
   }
 

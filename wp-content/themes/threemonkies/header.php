@@ -51,17 +51,17 @@
 				<span class="contact-info">
 					<a href="mailto::reservations@3monkiescr.com" id="contact-email">
 						<!-- <i class="fas fa-envelope"></i> -->
-						<span>
+						<span style="color: #fff;">
 							reservations@3monkiescr.com
 						</span>
 					</a>
 
-					<a href="tel:50687199020" id="contact-phone">
-						<!-- <i class="fas fa-phone"></i> -->
+					<!-- <a href="tel:50687199020" id="contact-phone">
+						
 						<span>
 							+(506) 87199020
 						</span>
-					</a>
+					</a> -->
 				</span>
 
 			</div>
