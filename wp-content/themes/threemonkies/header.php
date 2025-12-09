@@ -40,7 +40,7 @@
 	<header class="header">
 		<a href="<?php echo esc_url(home_url('/')); ?>" class="logo-small"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-faces.png" alt="3 Monkies Tours"></a>
 		<div class="header-top">
-			<a href="<?php echo esc_url(home_url('/')); ?>" class="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="3 Monkies Tours"></a>
+			<a href="<?php echo esc_url(home_url('/')); ?>" class="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/3Monkies-2025.webp" alt="3 Monkies Tours"></a>
 		</div>
 		<div class="right-buttons">
 			<div href="#" id="btn-info" class="btn-info">
