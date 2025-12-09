@@ -56,12 +56,12 @@
 						</span>
 					</a>
 
-					<!-- <a href="tel:50687199020" id="contact-phone">
+					<a href="tel:50687199020" id="contact-phone">
 						
-						<span>
+						<span style="color: #fff;">
 							+(506) 87199020
 						</span>
-					</a> -->
+					</a>
 				</span>
 
 			</div>

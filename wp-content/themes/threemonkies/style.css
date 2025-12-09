@@ -2282,6 +2282,9 @@ h3 {
 .small-right-buttons .btn-info {
   background: #b9da00;
 }
+.small-right-buttons div span.contact-info {
+  display: block !important;
+}
 .small-right-buttons .contact-info a{
   text-align: center;
   color: #fff;
@@ -2335,6 +2338,8 @@ h3 {
   display: none;
   position: fixed;
   right: 0;
+  width: 100%;
+  max-width: 280px;
   text-align: left;
   top: 5rem;
   background-color: rgba(0, 0, 0, 0.75);
@@ -2342,7 +2347,7 @@ h3 {
 }
 
 .contact-info a {
-  display: block;
+  display: block!important;
   text-align: left;
   padding: .5rem;
 }
@@ -2452,7 +2457,7 @@ h3 {
     left: 0;
     right: 1rem;
     bottom: 0;
-    top: 50px;
+    top: 65px;
     z-index: 3;
     width: 210px;
     background: transparent;
@@ -2562,7 +2567,7 @@ h3 {
   .section-right {
     left: auto;
     bottom: auto;
-    top: 50px;
+    top: 65px;
     display: block;
   }
 
