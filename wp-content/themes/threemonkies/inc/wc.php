@@ -209,6 +209,59 @@ function woo_rates_tab_content()
 
 }
 
+//revisa si un campo wysiwyg tiene contenido real (ignora etiquetas vacias, &nbsp; y espacios)
+function threemonkies_has_content($field)
+{
+    $value = rwmb_meta($field);
+    if (!is_string($value)) {
+        return !empty($value);
+    }
+    $text = str_replace(array('&nbsp;', "\xC2\xA0"), ' ', wp_strip_all_tags($value));
+    return trim($text) !== '' || preg_match('/<(img|iframe|table|video)\b/i', $value);
+}
+
+//agregar tab rates 2 con la informacion de rates 2
+add_filter('woocommerce_product_tabs', 'woo_rates2_tab', 100);
+function woo_rates2_tab($tabs)
+{
+
+  // Adds the new tab
+    if (threemonkies_has_content('rw_rates2_regular') || threemonkies_has_content('rw_rates2_private')) {
+        $tabs['rates2'] = array(
+            'title' => __('Rates 2', 'woocommerce'),
+            'priority' => 51,
+            'callback' => 'woo_rates2_tab_content'
+        );
+    }
+
+    return $tabs;
+
+}
+function woo_rates2_tab_content()
+{
+
+  // The new tab content
+
+    echo '<h2>Rates 2</h2>';
+    $html = '';
+    if (threemonkies_has_content('rw_rates2_regular') && threemonkies_has_content('rw_rates2_private')) {
+        $html .= '<div class="flex-container-sb">';
+        $html .= '<div class="details-container details-container-left">';
+        $html .= rwmb_meta('rw_rates2_regular');
+        $html .= '</div>';
+        $html .= '<div class="details-container details-container-right">';
+        $html .= rwmb_meta('rw_rates2_private');
+        $html .= '</div>';
+        $html .= '</div>';
+    }else{
+        $html .= rwmb_meta('rw_rates2_regular');
+        $html .= rwmb_meta('rw_rates2_private');
+    }
+
+    echo $html;
+
+}
+
 
 add_filter('woocommerce_product_tabs', 'woo_video_tab', 101);
 function woo_video_tab($tabs)

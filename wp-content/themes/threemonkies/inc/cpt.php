@@ -79,6 +79,24 @@ function threemonkies_meta_boxes($meta_boxes)
                 ),
             ),
             array(
+                'id' => $prefix . 'rates2_regular',
+                'name' => esc_html__('Rates 2 Regular', 'threemonkies'),
+                'type' => 'wysiwyg',
+                'desc' => esc_html__('Rates 2 Regular', 'threemonkies'),
+                'options' => array(
+                    'textarea_rows' => 10,
+                ),
+            ),
+            array(
+                'id' => $prefix . 'rates2_private',
+                'name' => esc_html__('Rates 2 Private', 'threemonkies'),
+                'type' => 'wysiwyg',
+                'desc' => esc_html__('Rates 2 Private', 'threemonkies'),
+                'options' => array(
+                    'textarea_rows' => 10,
+                ),
+            ),
+            array(
                 'id' => $prefix . 'video',
                 'name' => 'Video',
                 'type' => 'oembed',

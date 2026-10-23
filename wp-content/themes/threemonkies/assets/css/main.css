@@ -1314,7 +1314,8 @@ iframe {
 .woocommerce div.product .woocommerce-tabs ul.tabs li.book_shuttle_tab {
   background-color: #ee4035;
 }
-.woocommerce div.product .woocommerce-tabs ul.tabs li.rates_tab {
+.woocommerce div.product .woocommerce-tabs ul.tabs li.rates_tab,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.rates2_tab {
   background-color: #416725;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.video_tab {
@@ -1325,7 +1326,8 @@ iframe {
   font-family: "Font Awesome 5 Solid";
   content: "\f05a";
 }
-.rates_tab a:before {
+.rates_tab a:before,
+.rates2_tab a:before {
   display: none;
   font-family: "Font Awesome 5 Solid";
   content: "\f3d1";
