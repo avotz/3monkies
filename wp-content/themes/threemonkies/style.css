@@ -1553,6 +1553,11 @@ iframe {
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.25rem;
+  padding-left: 0;
   text-align: right;
   margin-bottom: 0.5rem;
 }
@@ -1560,7 +1565,7 @@ iframe {
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
   background: #eeae11;
   color: #fff;
-  padding: 0 0.5em;
+  padding: 0 0.35em;
   margin: 0 0;
   border-radius: 0;
 }
@@ -1575,7 +1580,7 @@ iframe {
   font-weight: 300;
   outline: none;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.5rem 0.4rem;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a .span-tab-title {
@@ -1588,7 +1593,6 @@ iframe {
 
 @media screen and (min-width: 560px) {
   .woocommerce div.product .woocommerce-tabs ul.tabs li {
-    margin: 0 0.25rem;
     font-size: 1rem;
   }
 
